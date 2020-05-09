@@ -1,5 +1,9 @@
 Forked from https://github.com/kuba-moo/mt7601u
 Thanks for @kuba-moo ;)
+<br><br>
+Tested work on my machine :)<br>
+OS: Debian 10 Linux version 4.19.0-8-amd64 
+
 
 ### Building and using
 To use this driver you need to upgrade your kernel to at least **Linux 3.19**. You also have to grab a copy of the firmware from the vendor driver. Download the vendor driver (see section below) and copy file *MT7601U.bin* to */lib/firmware*:
@@ -40,7 +44,7 @@ $ make && sudo make install && depmod
 ```
 However, please remember that this installs the driver *only for your current kernel* and you will have to redo this every time your kernel is updated!
 
-*PS 
+*PS <br>
 Edit NetworkManager.conf :
 ```sh
 $ sudo nano /etc/NetworkManager/NetworkManager.conf
